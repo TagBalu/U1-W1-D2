@@ -3,16 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Epicode Blog</title>
   </head>
   <body>
-    <header>
-      <img src="logo.svg" alt="Logo Epicode" />il Blog dei Developers
-      <div id=" topbare">home</div>
-      <div id=" ">lavora con noi</div>
-      <div id=" topbare">home</div>
-      <div id=" topbare">home</div>
-    </header>
-    <h1>Come creare un template per i post di Baluyev Vacislav del 11/03/2025</h1>
+    <div id="topbar">
+      <img id="img" src="logo.svg" alt="Logo Epicode" />
+      <div id="class">home</div>
+      <div id="class">lavora con noi</div>
+      <div id="class">Articoli</div>
+      <div id="menù">
+        <ion-icon name="grid-outline"></ion-icon>
+      </div>
+    </div>
+    <main>
+      <p>Epicode- il blog dei developers</p>
+
+      <hr />
+
+      <h1>Come creare un template per i post di Mario rossi - 25/10/2020</h1>
+      <p>La priam cosa da fare è suddividere in blocchi logici la pagina, indeificando le parti comuni da applicare a tutte le pagine</p>
+      <ul>
+        le varie aree saranno quindi suddivise in :
+        <li>Contenuti di intestazione del tag</li>
+        <li>Contenuti cenreali variabili del tag</li>
+        <li>Contenuti di fine pagina comuni, da inserire nel tag</li>
+      </ul>
+      <h2>Fromattazione del codice</h2>
+      <ol>
+        Il testo dell'articolo dovrà essere formattato per indentificare tutte le parti da selezionarecon i CSS. perciò i passi saranno:
+        <li>Progettare il markup assegnarendo ad ogni specifico testp test tag appropriato</li>
+        <li>Scrivere l'html dai tag esterni a quelli interni e dall'alto verso il basso</li>
+        <li>Applicare gli stili CSS</li>
+      </ol>
+      <p>L'applicazione di stili css è cresciuta negli annifino a raggiungere la diffusione pressochè totale.</p>
+      <table>
+        <caption>
+          DIFFUSIONE DEI CSS
+        </caption>
+        <tr>
+          <th>Anno</th>
+          <th>% di utilizzo</th>
+          <th>supporto browsers</th>
+        </tr>
+        <tr>
+          <td>2000</td>
+          <td>20%</td>
+          <td>17%</td>
+        </tr>
+        <tr>
+          <td>2002</td>
+          <td>35%</td>
+          <td>22%</td>
+        </tr>
+        <tr>
+          <td>2004</td>
+          <td>45%</td>
+          <td>42%</td>
+        </tr>
+        <tr>
+          <td>2008</td>
+          <td>80%</td>
+          <td>51%</td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td>100%</td>
+          <td>76%</td>
+        </tr>
+      </table>
+      <p>
+        Un test di validazione potrà essere fatto tramite il <a href=" ">tool online</a> dedicato alo scopo. Una volta ottimizzato il tutto, avremo raggiunto il
+        nostro obiettivo ed essere stati dei veri developers come loro:
+      </p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/aBSZVeBRvDY?si=3ZvND1NsRZtL2Khq"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <p>Vuoi rimanere aggiornato/a iscriviti alla nostra newsletter</p>
+      <form onsubmit="alert ('Iscrizione inviata')">
+        <label for="email"> email</label>
+        <input type="email" id="email" name="email" placeholder="inserisci la tua email" required />
+        <button>isciriviti!</button>
+      </form>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <footer id="footer">
+      <div>
+        <p>
+          validare il codice html <br />
+          categoria: develop <br />
+          Data: 18-9-2020
+        </p>
+      </div>
+      <div>
+        <p>
+          Correggere la sintassi <br />
+          categoria: develop<br />
+          Data: 16-9-2020
+        </p>
+      </div>
+      <div>
+        <p>
+          Meno Kb nella pagina <br />
+          Categoria : ottimizzazione <br />
+          Data: 30-9-2020
+        </p>
+      </div>
+    </footer>
+    <p class="copyright">
+      Blog Epicode ©2025 Testa online di Mario Rossi , registrata con prot.n213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.br Info@epicopde.school
+    </p>
   </body>
 </html>
